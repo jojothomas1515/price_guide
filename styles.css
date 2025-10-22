@@ -5,9 +5,11 @@
     margin: 0;
     padding: 0;
 }
+body {
+    position: relative;
+}
 
 main {
-
     max-width: 500px;
     margin: 0 auto;
 
@@ -15,5 +17,22 @@ main {
         width: 100%;
         object-fit: contain;
         display: block;
+    }
+}
+
+.socials {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: max-content;
+    width: max-content;
+
+    a {
+        height: max-content;
+        width: max-content;
+        img {
+            width: 40px;
+            aspect-ratio: 1/1;
+        }
     }
 }
